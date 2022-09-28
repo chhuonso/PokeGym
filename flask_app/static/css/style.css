@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+    /* outline: 2px solid red; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    margin: 20px;
+    border-radius: 15px;
+}
+h1 {
+    text-shadow: 2px 2px greenyellow;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-btn {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 90px;
+    padding: 5px 0;
+    background-color: greenyellow;
+    border-radius: 10px;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.link-tags {
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 13pt;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/static/images/img1.jpg");
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#main-h1{
+    font-size: 100pt;
+    color: greenyellow;
+    text-shadow: 5px 5px orange;
+}
+
+.about-container {
+    height: 60vh;
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid greenyellow;
+}
+
+#img2 {
+    width: 530px;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: center;
+    padding: 28px;
+    border: 5px solid rgb(0, 0, 0); 
+}
+
+p{
+    text-align: left;
+    line-height: 25px;
+    font-size: medium;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 40pt;
+    text-shadow: 2px 2px greenyellow;
+}
+
+
+.card-container {
+    height: 80vh;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px;
+    padding: 20px 0;
+
+}
+
+.cards {
+    width: 20%;
+}
+
+.card-content{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+.top-card{
+    flex:1;
+}
+
+.bottom-card{
+    flex: none;
+    background-color: rgba(0, 0, 0, 0.807);
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#card1 {
+    background-image: url("/static/images/trainer1.jpg");
+
+}
+#card2 {
+    background-image: url("/static/images/trainer2.jpg");
+
+}
+#card3 {
+    background-image: url("/static/images/trainer3.jpg");
+
+} 
+
+#card1,#card2,#card3 {
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.btn-member{
+    width: 100%;
+}
+
+
+.BLANK {
+    height: 70vh;
+    background-color: greenyellow;
+}
+
+/* login and sign up page */
+form {
+    width: 400px;
+    color: orange;
+    padding: 30PX;
+
+}
+
+.container-form{
+    width: 800px;
+    padding: 40px;
+    margin: 50px auto;
+    background-color:greenyellow;
+    border-radius: 15px;
+}
+.box-form {
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 150px;
+}
+
+
+#flash{
+    width: 200px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+}
